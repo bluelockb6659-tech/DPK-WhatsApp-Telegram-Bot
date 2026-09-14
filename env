@@ -1,0 +1,6 @@
+BOT_TOKEN=VOTRE_TOKEN_BOTFATHER
+BOT_NAME=DPK
+
+# Facultatif : ID Telegram autorisés à utiliser le bot
+# Laisser vide pour autoriser tout le monde
+OWNER_IDS=

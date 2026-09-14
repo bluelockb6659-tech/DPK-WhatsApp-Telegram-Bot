@@ -1,0 +1,16 @@
+services:
+  - type: worker
+    name: dpk-whatsapp-telegram-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+
+      - key: BOT_NAME
+        value: DPK
+
+      - key: OWNER_IDS
+        sync: false
